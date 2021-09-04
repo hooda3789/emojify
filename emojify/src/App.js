@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <h1>inside outtt</h1>
 
-      <input id="inputText" onChange={emojiInputHandler} />
+      <input id="inputText" placeholder="Search your emoji" onChange={emojiInputHandler} />
 
       <h2>{animal}</h2>
 
